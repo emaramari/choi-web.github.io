@@ -1,0 +1,62 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.bg {
+  background: radial-gradient(circle,
+      rgba(255, 255, 255, 0.75),
+      rgba(225, 225, 225, 0.50));
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.fixed-carousel {
+  height: 420px;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.art-size {
+  width: 380px;
+}
+
+.art-two {
+  width: 300px;
+}
+
+.card-size {
+  width: 400px;
+  height: 230px;
+}
+
+.card-content:hover {
+  filter: drop-shadow(1px 1px 5px black);
+  transition: scale 0.2s ease;
+  scale: 1.1;
+}
+
+.your-quote {
+  border: none;
+  font-weight: bold;
+}
+
+input {
+  outline: none;
+}
+
+.quote-exp {
+  border: none;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+}
