@@ -24,6 +24,11 @@
   display: none;
 }
 
+html, body {
+  overflow-x: hidden; 
+  width: 100%;      
+}
+
 .art-size {
   width: 380px;
 }
